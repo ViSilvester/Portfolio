@@ -6918,6 +6918,11 @@ a.close.disabled {
     background-color: #800080 !important;
 }
 
+.bg-background {
+    background-color: #800080 !important;
+    background-image: url("assets/background.png");
+}
+
 a.bg-primary:hover,
 a.bg-primary:focus,
 button.bg-primary:hover,
