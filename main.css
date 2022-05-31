@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
+
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -82,6 +84,7 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: 'Quattrocento Sans', sans-serif;
     margin-top: 0;
     margin-bottom: 0.5rem;
 }
@@ -7286,13 +7289,6 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 1200px) {
-    .bg-image {
-        background-image: url("assets/background.png");
-        background-repeat: no-repeat;
-        background-position-x: 100%;
-        background-color: #b738b1 !important;
-
-    }
 
     .d-xl-none {
         display: none !important;
